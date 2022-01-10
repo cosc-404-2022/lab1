@@ -1,21 +1,21 @@
 # COSC 404 - Database System Implementation<br/>Lab 1 - MySQL vs. PostgreSQL - Creating and Querying Data
 
-This lab will give you practice with creating and query data on MySQL and PostgreSQL and allow you to compare the two database systems.
+This lab practices creating and querying data on MySQL and PostgreSQL and allows comparing the two database systems.
 
 ## Setup
 
-The labs use Java, Docker, and GitHub. Follow the [installation instructions]() to get your computer setup for the labs.
+The labs use Java, Docker, and GitHub. Follow the [setup and installation instructions](https://github.com/rlawrenc/cosc_404/tree/main/labs/setup) to get your computer setup for the labs.
 
 ## MySQL
 
-One of the Docker containers is running MySQL 8. Connection information is in the docker-compose.yml file.
+One of the Docker containers is running MySQL 8. Connection information is in the `docker-compose.yml` file.
 
 ### References:
 
-- [MySQL Date Time Functions](http://dev.mysql.com/doc/refman/5.7/en/date-and-time-functions.html)
-- [MySQL String Functions](http://dev.mysql.com/doc/refman/5.7/en/string-functions.html)
-- [MySQL Auto_Increment](http://dev.mysql.com/doc/refman/5.7/en/example-auto-increment.html)
-- [MySQL Date and Time Types](http://dev.mysql.com/doc/refman/5.7/en/datetime.html)
+- [MySQL Date Time Functions](http://dev.mysql.com/doc/refman/8.0/en/date-and-time-functions.html)
+- [MySQL String Functions](http://dev.mysql.com/doc/refman/8.0/en/string-functions.html)
+- [MySQL Auto_Increment](http://dev.mysql.com/doc/refman/8.0/en/example-auto-increment.html)
+- [MySQL Date and Time Types](http://dev.mysql.com/doc/refman/8.0/en/datetime.html)
 
 
 ## PostgreSQL
@@ -24,9 +24,9 @@ One of the Docker containers is running Postgres 14. Connection information is i
 
 ### References:
 
-- [PostgreSQL Date Functions](http://www.postgresql.org/docs/9.4/static/functions-datetime.html)
-- [PostgreSQL String Functions](http://www.postgresql.org/docs/9.4/static/functions-string.html)
-- [PostgreSQL Create Table Syntax](http://www.postgresql.org/docs/9.4/static/sql-createtable.html">PostgreSQL Create Table Syntax)
+- [PostgreSQL Date Functions](http://www.postgresql.org/docs/14/static/functions-datetime.html)
+- [PostgreSQL String Functions](http://www.postgresql.org/docs/14/static/functions-string.html)
+- [PostgreSQL Create Table Syntax](http://www.postgresql.org/docs/14/static/sql-createtable.html)
 
 ## Tasks
 
@@ -36,7 +36,7 @@ You will repeat the same tasks for both PostgreSQL and MySQL.  The goal is to bu
 
 The two classes you will write are `QueryMySQL.java` and `QueryPostgreSQL.java`.  The test classes are `TestQueryMySQL.java` and `TestQueryPostgreSQL.java` respectively.  You will fill in the methods requested (search for **TODO**).  Marks for each method are below.  You receive the marks if you pass the JUnit tests AND have followed the requirements asked in the question (including documentation and proper formatting).
 
-- +1 mark - Method connect() to make a connection to the database.
+- +1 mark - Method `connect()` to make a connection to the database.
 - +1 mark - Method close() to close the connection to the database.
 - +1 mark - Method drop() to drop the table "player" that we will be using.
 - +2 marks - Method create() to create a "player" table with fields:
