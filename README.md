@@ -46,14 +46,16 @@ The two classes you will write are `QueryMySQL.java` and `QueryPostgreSQL.java`.
 	- birthdate - date
 	- last_update - datetime	
 - +3 marks - Method `insert()` to add the following records.  **You must use PreparedStatements to get full marks.**	
-	  ```
+
+```
 name, salary, birthdate, last_update
 1, Ann Alden, 123000.00, 1986-03-04, 2022-01-04 11:30:30.0
 2, Bob Baron, 225423.00, 1993-12-02, 2022-01-04 12:30:25.0
 3, Chloe Cat, 99999999.99, 1999-01-15, 2022-01-04 12:25:45.0
 4, Don Denton, 91234.24, 2004-08-03, 2022-01-04 12:45:00.0
 5, Eddy Edwards, 55125125.25, 2003-05-17, 2022-01-05 23:00:00.0
-    	```
+```
+
 - +1 mark - Write the method `delete()` to delete the person with name `'Bob Baron'`.</li>
 - +2 marks - Write the method `query1()` that returns the person name and salary where rows are sorted by salary descending.</li>
 - +2 marks - Write the method `query2()` that returns the person's last name and salary if the person's salary is greater than the average salary of all people.</li>
