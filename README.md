@@ -44,7 +44,7 @@ The two classes you will write are `QueryMySQL.java` and `QueryPostgreSQL.java`.
 	- name - variable character field up to size 40
 	- salary - must hold up to 99,999,999.99 exactly
 	- birthdate - date
-	- last_update - datetime	
+	- last_update - timestamp	
 - +3 marks - Method `insert()` to add the following records.  **You must use PreparedStatements to get full marks.**	
 
 ```
