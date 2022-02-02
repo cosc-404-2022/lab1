@@ -38,8 +38,8 @@ The two classes you will write are `QueryMySQL.java` and `QueryPostgreSQL.java`.
 
 - +1 mark - Method `connect()` to make a connection to the database.
 - +1 mark - Method `close()` to close the connection to the database.
-- +1 mark - Method `drop()` to drop the table "player" that we will be using.
-- +2 marks - Method `create()` to create a "player" table with fields:
+- +1 mark - Method `drop()` to drop the table "person" that we will be using.
+- +2 marks - Method `create()` to create a "person" table with fields:
   	- id - integer, must auto-increment
 	- name - variable character field up to size 40
 	- salary - must hold up to 99,999,999.99 exactly
