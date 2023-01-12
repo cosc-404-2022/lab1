@@ -191,6 +191,8 @@ public class QueryPostgreSQL
      */    
     public static String resultSetToString(ResultSet rst, int maxrows) throws SQLException
     {                       
+	if (rst == null)
+		return "No resultset";
         StringBuffer buf = new StringBuffer(5000);
         int rowCount = 0;
         ResultSetMetaData meta = rst.getMetaData();
