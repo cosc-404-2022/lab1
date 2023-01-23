@@ -28,7 +28,7 @@ One of the Docker containers is running Postgres 14. Connection information is i
 - [PostgreSQL String Functions](http://www.postgresql.org/docs/14/static/functions-string.html)
 - [PostgreSQL Create Table Syntax](http://www.postgresql.org/docs/14/static/sql-createtable.html)
 - [Parse Dates in Java using SimpleDateFormat](https://jenkov.com/tutorials/java-date-time/parsing-formatting-dates.html)
-- 
+
 ## Tasks
 
 Starter code is available including JUnit test cases and the JDBC drivers for MySQL and PostgreSQL. 
