@@ -89,7 +89,7 @@ public class QueryPostgreSQL
 	 *  - name - variable character field up to size 40
 	 *  - salary - must hold up to 99,999,999.99 exactly
 	 *  - birthdate - date
-	 *  - last_update - datetime
+	 *  - last_update - timestamp
 	 */
 	public void create() throws SQLException
 	{
